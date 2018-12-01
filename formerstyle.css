@@ -1,0 +1,80 @@
+ 
+
+ 
+Css code
+html,
+body { 
+background-img:url("green.jpg");
+-webkit-background-size:cover; 
+-moz-background-size:cover; 
+background-size:cover; 
+background-repeat:repeat; 
+}
+img {
+border-radius:70%;
+border-style:none;
+border-color: #0C6702;
+}
+.container {
+text-align: center;
+background-color:rgba(RED);
+padding:20px;
+border-radius: 5px;
+border-style: solid;
+border-width: 10%;
+border-color: #0C6702;
+display: block;
+}
+.greeting {
+text-align:center;
+font-family: Segoe Print;
+font-size: 30px;
+color: #00C6702;
+}
+.discription {
+text-align:center;
+font-family: Segoe Print;
+color:#000000;
+}
+input {
+background-color:9FFC8F;
+	padding: 15px;
+	border: none;
+	border-bottom-style: solid;
+	border-bottom-color: #2fc716;
+	border-bottom-width: 5px;
+	border-radius: 3px;
+	color: #0C6702;
+}
+button {
+	background-color:9FFC8F ;
+	color: white;
+	font-size: 20px;
+	width: 200px;
+	text-transform: uppercase;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+}
+button:hover {
+	background-color: #0C8975;
+	cursor:pointer;
+	color: #103428;
+}
+button:active {
+border: solid;
+border-width: 1px;
+border-color: 9FFC8F;
+}
+.remember {
+text-decoration: none;
+font-family: "Segoe Print";
+font-weight: bold;
+color: #503785;
+}
+a {
+text-decoration: none;
+font-family: "Segoe Print"
+font-weight: bold;
+color: #A7020A;
+}
